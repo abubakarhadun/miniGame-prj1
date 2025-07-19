@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>MINI GAME PROJECT 1</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body id= "body">
+        <audio id="soundEffect" src="sound/backgroundMusic.mp3" autoplay loop></audio>
+        <div id = "halamanAwal">
+            <h1 class="h1">SELAMAT DATANG DI MINI GAME PROJECT PERTAMA SAYA</h1>
+            <br><br>
+            <form id="form-login">
+                <input type = "text" id = "inputanUsername" class="form-inputan" placeholder = "isi Username anda disini">
+                <br><br>
+                <input type = "password" id  = "inputanPassword" class="form-inputan" placeholder=" isi kan Password Anda dsini">
+                <br><br>
+                <button id = "buttonLogin" >Login</button>
+                
+            </form>
+            <br><br>
+            <button id = "buttonDaftar">Daftar kan Akun</button>
+        </div>
+
+        <div id = "daftarPage">
+            <h1 class="h1">Buat Akun Baru</h1>
+            <br><br>
+            <form id="form-daftar">
+                <input id= "inputanUsernameBaru" class="form-inputan" type ="text" placeholder="Masukan Username Baru Anda Disini">
+                <br><br>
+                <input id= "inputanPasswordBaru" class="form-inputan" type ="Password" placeholder="Masukan Password Baru Anda Disini">
+                <br><br>
+                <button id ="daftar" >DAFTAR</button>
+            </form>            
+            <br><br>
+            <button id ="buttonKembaliDaftar"> Kembali </button>
+        </div>
+
+
+        <div id="setelahLogin">
+            <h1 id ='namaPengguna'></h1>
+            <div class="layerPertama">             
+                <div id ="topHbox">            
+                    <div id="cornerFrameTopLeft"></div>
+                    <div id="cornerFrameTopRight"></div>
+                </div>
+                <div id="bottomHbox">
+                    <div id="cornerFrameBottomLeft">
+                        <div id="mortar">
+                            <img src="images/canon.png" id="canon">
+                        </div>
+                    </div>
+                    <div id="cornerFrameBottomRight"></div>
+                </div>
+            </div>
+            <div class="Hbox">
+                <button id="buttonSetelahLoginSatu">Mulai GAME</button>
+                <button id="keKiri">ke kiri</button>
+            </div>
+        </div>
+        <script src="script.js"></script>
+        
+    </body>
+</html>
+
+

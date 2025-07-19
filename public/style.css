@@ -1,0 +1,163 @@
+#body{
+    background-color:deepskyblue;
+    background-image: url('images/background.svg');
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.h1{
+    font-size: 18px;
+    color: rgb(10, 45, 73);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    background-color: slategray;
+    background: 100%; ;
+}
+
+#halamanAwal{
+    display: flex;
+    background-image: url('images/bgLayerGame.png');
+    background-size:auto;
+    background-position: left;
+    flex-direction: column;
+    width: 80%;
+    border-radius:98px 98px 98px 98px;
+    height: 100%;
+    background-color:yellow;
+    align-items: center;
+    justify-content: center;
+    padding: 5%;
+    box-shadow: 2px 2px 35px rgba(0,0,0,0.5);
+}
+
+#daftarPage{
+    display: none;
+    background-image: url('images/bgLayerGame.png');
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+    width: 80%;
+    border-radius:98px 98px 98px 98px;
+    height: 100%;
+    background-color:yellow;
+    align-items: center;
+    justify-content: center;
+    padding: 5%;
+    box-shadow: 2px 2px 35px rgba(0,0,0,0.5);
+}
+
+.form-inputan{
+    box-shadow: 2px 2px 35px rgba(0,0,0,0.5);
+    border-radius: 20% 20% 20% 20%;
+}
+
+
+#setelahLogin{
+    padding: 10%;
+    display: none;    
+    background-image: url('images/bgLayerGame.png');
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+    width: 80%;
+    border-radius:98px 98px 98px 98px;
+    height: 100%;
+    background-color:deepskyblue;
+    align-items: center;
+    justify-content: center;
+    padding: 5%;
+    box-shadow: 2px 2px 35px rgba(0,0,0,0.5);
+    gap: 20px;
+}
+
+.layerPertama{
+    display: flex;
+    background-color:rgb(34, 198, 42);
+    width: 450px;
+    height: 220px;
+    border-radius: 7%;
+    flex-direction:column
+}
+
+    #topHbox{
+        display: flex;
+        width:450px;
+        height: fit-content;
+        flex-direction: row;
+    }
+ 
+        #cornerFrameTopLeft {
+            display: flex;
+            width: 50px;
+            height: 50px;
+            border-radius: 34% 0% 0% 0%;
+            background-color: yellow;
+        }
+
+        #cornerFrameTopRight {
+            display: flex;
+            width: 50px;
+            height: 50px;
+            margin-left: 350px;
+            border-radius: 0% 34% 0% 0%;
+            background-color: yellow;
+        }
+
+   
+
+
+    #bottomHbox{
+        display: flex;
+        width: 450px;
+        height: fit-content;
+        flex-direction: row;
+        margin-top: 120px;
+    }
+        #cornerFrameBottomLeft {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 50px;
+            height: 50px;
+            margin-right: 350px;
+            border-radius: 0% 0% 0% 34%;
+            background-color: yellow;
+        }
+
+            #mortar{
+                transform-origin: center center;
+            }
+            
+                #canon{
+                    width: 40px;
+                    height: 30px;
+                    transition: transform 0.1s linear;
+                    transform:center center;
+                }
+            
+
+        #cornerFrameBottomRight {
+            display: flex;
+            width: 50px;
+            height: 50px;
+            border-radius: 0% 0% 34% 0%;
+            background-color: yellow;
+        } 
+
+
+#buttonSetelahLoginSatu{
+    display: flex;
+    width: 15%;
+    height: 40px;
+    background-color:skyblue;
+    align-items: center;
+    justify-content: center;
+}
+
+.HBox{ 
+    flex-direction: column;
+}
