@@ -151,13 +151,16 @@
 
 #buttonSetelahLoginSatu{
     display: flex;
-    width: 15%;
+    width: 40%;
     height: 40px;
     background-color:skyblue;
     align-items: center;
     justify-content: center;
 }
 
-.HBox{ 
-    flex-direction: column;
+.Hbox{ 
+    display: flex;
+    width: 250px;
+    flex-direction: row;
+    gap: 50px;
 }

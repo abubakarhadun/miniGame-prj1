@@ -9,6 +9,7 @@ db.serialize(()=> {
         id INTEGER PRIMARY KEY,
         name TEXT NOT NULL,
         password TEXT NOT NULL UNIQUE,
+        salt TEXT NOT NULL,
         created_at TEXT,
         updated_at DEFAULT CURRENT_TIMESTAMP
     )`);
