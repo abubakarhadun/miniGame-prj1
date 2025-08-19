@@ -1,5 +1,5 @@
 const SceneDaftar  = document.getElementById('daftarPage'); 
-
+var audio = document.getElementById('soundEffect');
 
 const buttonLogin = document.getElementById('form-login');
 buttonLogin.addEventListener('submit', function(e){
@@ -22,6 +22,8 @@ e.preventDefault();
             document.getElementById('halamanAwal').style.width = '40%';
             document.getElementById('setelahLogin').style.display = 'flex';
             buttonLogin.reset();
+            audio.muted = false;
+            audio.play();
         }else{
             alert('Username Dan Password Salah');
         }
@@ -66,7 +68,7 @@ document.getElementById('form-daftar').addEventListener('submit', function(e){
     
     
         }).then(user =>{
-            alert(`username dengan nama : ${user.name} - dan password : ${user.password} berhasil disimpan.`);
+            alert(`username dengan nama : ${user.name} - id : ${user.id} - dan password : ${user.password} berhasil disimpan.`);
             document.getElementById('form-daftar').reset();
         }).catch(err =>{
             alert('Fetch error:', err.message);
